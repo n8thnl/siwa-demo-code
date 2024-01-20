@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16578C82B38E257000FE0AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16578C72B38E257000FE0AC /* AppDelegate.swift */; };
+		F16578CA2B38E257000FE0AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16578C92B38E257000FE0AC /* SceneDelegate.swift */; };
+		F16578D12B38E257000FE0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16578D02B38E257000FE0AC /* Assets.xcassets */; };
+		F16578D42B38E257000FE0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16578D22B38E257000FE0AC /* LaunchScreen.storyboard */; };
+		F1A4D4442B3BC3A300EE6215 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D4432B3BC3A300EE6215 /* SignInViewController.swift */; };
+		F1A4D4462B3BC3DB00EE6215 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D4452B3BC3DB00EE6215 /* WelcomeViewController.swift */; };
+		F1A4D4482B3BC49B00EE6215 /* PersistLaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D4472B3BC49B00EE6215 /* PersistLaunchScreenViewController.swift */; };
+		F1A4D44A2B3BC57900EE6215 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D4492B3BC57900EE6215 /* Extensions.swift */; };
+		F1A4D44D2B3E975300EE6215 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D44C2B3E975300EE6215 /* Api.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F16578C42B38E257000FE0AC /* Sign In With Apple Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign In With Apple Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16578C72B38E257000FE0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F16578C92B38E257000FE0AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F16578D02B38E257000FE0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16578D32B38E257000FE0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16578D52B38E257000FE0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A4D4432B3BC3A300EE6215 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F1A4D4452B3BC3DB00EE6215 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F1A4D4472B3BC49B00EE6215 /* PersistLaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistLaunchScreenViewController.swift; sourceTree = "<group>"; };
+		F1A4D4492B3BC57900EE6215 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F1A4D44B2B3D3BD900EE6215 /* Sign In With Apple Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sign In With Apple Demo.entitlements"; sourceTree = "<group>"; };
+		F1A4D44C2B3E975300EE6215 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16578C12B38E257000FE0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16578BB2B38E257000FE0AC = {
+			isa = PBXGroup;
+			children = (
+				F16578C62B38E257000FE0AC /* Sign In With Apple Demo */,
+				F16578C52B38E257000FE0AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16578C52B38E257000FE0AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16578C42B38E257000FE0AC /* Sign In With Apple Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16578C62B38E257000FE0AC /* Sign In With Apple Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4D44B2B3D3BD900EE6215 /* Sign In With Apple Demo.entitlements */,
+				F1A4D4422B3BC35A00EE6215 /* Util */,
+				F1A4D4412B3BC34D00EE6215 /* Controllers */,
+				F1A4D4402B3BC33800EE6215 /* Delegate */,
+				F16578D02B38E257000FE0AC /* Assets.xcassets */,
+				F16578D22B38E257000FE0AC /* LaunchScreen.storyboard */,
+				F16578D52B38E257000FE0AC /* Info.plist */,
+			);
+			path = "Sign In With Apple Demo";
+			sourceTree = "<group>";
+		};
+		F1A4D4402B3BC33800EE6215 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F16578C92B38E257000FE0AC /* SceneDelegate.swift */,
+				F16578C72B38E257000FE0AC /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		F1A4D4412B3BC34D00EE6215 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4D4432B3BC3A300EE6215 /* SignInViewController.swift */,
+				F1A4D4452B3BC3DB00EE6215 /* WelcomeViewController.swift */,
+				F1A4D4472B3BC49B00EE6215 /* PersistLaunchScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1A4D4422B3BC35A00EE6215 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4D4492B3BC57900EE6215 /* Extensions.swift */,
+				F1A4D44C2B3E975300EE6215 /* Api.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16578C32B38E257000FE0AC /* Sign In With Apple Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16578EE2B38E258000FE0AC /* Build configuration list for PBXNativeTarget "Sign In With Apple Demo" */;
+			buildPhases = (
+				F16578C02B38E257000FE0AC /* Sources */,
+				F16578C12B38E257000FE0AC /* Frameworks */,
+				F16578C22B38E257000FE0AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sign In With Apple Demo";
+			productName = "Sign In With Apple Demo";
+			productReference = F16578C42B38E257000FE0AC /* Sign In With Apple Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16578BC2B38E257000FE0AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F16578C32B38E257000FE0AC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F16578BF2B38E257000FE0AC /* Build configuration list for PBXProject "Sign In With Apple Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16578BB2B38E257000FE0AC;
+			productRefGroup = F16578C52B38E257000FE0AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16578C32B38E257000FE0AC /* Sign In With Apple Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16578C22B38E257000FE0AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16578D42B38E257000FE0AC /* LaunchScreen.storyboard in Resources */,
+				F16578D12B38E257000FE0AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16578C02B38E257000FE0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A4D4442B3BC3A300EE6215 /* SignInViewController.swift in Sources */,
+				F1A4D44A2B3BC57900EE6215 /* Extensions.swift in Sources */,
+				F1A4D4482B3BC49B00EE6215 /* PersistLaunchScreenViewController.swift in Sources */,
+				F1A4D4462B3BC3DB00EE6215 /* WelcomeViewController.swift in Sources */,
+				F16578C82B38E257000FE0AC /* AppDelegate.swift in Sources */,
+				F1A4D44D2B3E975300EE6215 /* Api.swift in Sources */,
+				F16578CA2B38E257000FE0AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F16578D22B38E257000FE0AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16578D32B38E257000FE0AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16578EC2B38E258000FE0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F16578ED2B38E258000FE0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16578EF2B38E258000FE0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sign In With Apple Demo/Sign In With Apple Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94SG4R6K2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sign In With Apple Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SIWA Demo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.n8thnl.Sign-In-With-Apple-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16578F02B38E258000FE0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sign In With Apple Demo/Sign In With Apple Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94SG4R6K2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sign In With Apple Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SIWA Demo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.n8thnl.Sign-In-With-Apple-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16578BF2B38E257000FE0AC /* Build configuration list for PBXProject "Sign In With Apple Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16578EC2B38E258000FE0AC /* Debug */,
+				F16578ED2B38E258000FE0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16578EE2B38E258000FE0AC /* Build configuration list for PBXNativeTarget "Sign In With Apple Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16578EF2B38E258000FE0AC /* Debug */,
+				F16578F02B38E258000FE0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16578BC2B38E257000FE0AC /* Project object */;
+}
